@@ -11,8 +11,13 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
     }
 
-    fun whatever(view: View){
+    fun breath2(view: View){
         val testIntent = Intent(this, Gif2::class.java)
+        startActivity(testIntent)
+    }
+
+    fun breath1(view: View){
+        val testIntent = Intent(this, Gif1::class.java)
         startActivity(testIntent)
     }
 }

@@ -16,7 +16,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Gif2"></activity>
+        <activity android:name=".Gif2" />
+        <activity android:name=".Gif1"></activity>
     </application>
 
 </manifest>

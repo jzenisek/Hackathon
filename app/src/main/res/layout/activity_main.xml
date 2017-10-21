@@ -15,14 +15,15 @@
             android:id="@+id/button01"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/button_01" />
+            android:text="@string/button_01"
+            android:onClick="breah1"/>
 
         <Button
             android:id="@+id/button02"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/button_02"
-            android:onClick="whatever"/>
+            android:onClick="breath2"/>
     </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>
