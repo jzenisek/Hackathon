@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Breathing App</string>
+    <string name="button_01">Button 1</string>
+    <string name="button_02">Button 2</string>
 </resources>
